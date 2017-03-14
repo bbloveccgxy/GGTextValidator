@@ -26,5 +26,5 @@ In the delegate method:<br>
 }   
 ```
 ## Example is in the demo.
-#Thanks for your advice!!!
+#Look forward to your suggestions!!!
 
