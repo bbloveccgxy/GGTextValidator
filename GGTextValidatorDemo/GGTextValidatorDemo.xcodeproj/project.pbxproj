@@ -13,13 +13,13 @@
 		845043E51E77C5F100BD5378 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845043E31E77C5F100BD5378 /* Main.storyboard */; };
 		845043E71E77C5F100BD5378 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845043E61E77C5F100BD5378 /* Assets.xcassets */; };
 		845043EA1E77C5F100BD5378 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845043E81E77C5F100BD5378 /* LaunchScreen.storyboard */; };
-		845043F81E77C92500BD5378 /* GGTextBaseValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 845043F71E77C92500BD5378 /* GGTextBaseValidator.m */; };
-		845043FF1E77CA0C00BD5378 /* GGTextIsEmptyValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 845043FE1E77CA0C00BD5378 /* GGTextIsEmptyValidator.m */; };
-		845044061E77CB3A00BD5378 /* GGTextLessThanValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 845044051E77CB3A00BD5378 /* GGTextLessThanValidator.m */; };
-		8450440A1E77CD2B00BD5378 /* GGTextMoreThanValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 845044091E77CD2B00BD5378 /* GGTextMoreThanValidator.m */; };
-		845044101E77CE7400BD5378 /* GGTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 8450440F1E77CE7400BD5378 /* GGTextField.m */; };
-		845044131E77D24400BD5378 /* GGTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 845044121E77D24400BD5378 /* GGTextView.m */; };
-		845044161E77D64300BD5378 /* GGTextValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 845044151E77D64300BD5378 /* GGTextValidator.m */; };
+		8450442C1E77DB5800BD5378 /* GGTextBaseValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8450441A1E77DB5800BD5378 /* GGTextBaseValidator.m */; };
+		8450442D1E77DB5800BD5378 /* GGTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 8450441D1E77DB5800BD5378 /* GGTextField.m */; };
+		8450442E1E77DB5800BD5378 /* GGTextIsEmptyValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 845044201E77DB5800BD5378 /* GGTextIsEmptyValidator.m */; };
+		8450442F1E77DB5800BD5378 /* GGTextLessThanValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 845044231E77DB5800BD5378 /* GGTextLessThanValidator.m */; };
+		845044301E77DB5800BD5378 /* GGTextMoreThanValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 845044261E77DB5800BD5378 /* GGTextMoreThanValidator.m */; };
+		845044311E77DB5800BD5378 /* GGTextValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 845044281E77DB5800BD5378 /* GGTextValidator.m */; };
+		845044321E77DB5800BD5378 /* GGTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8450442B1E77DB5800BD5378 /* GGTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,20 +33,20 @@
 		845043E61E77C5F100BD5378 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		845043E91E77C5F100BD5378 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		845043EB1E77C5F100BD5378 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		845043F61E77C92500BD5378 /* GGTextBaseValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGTextBaseValidator.h; sourceTree = "<group>"; };
-		845043F71E77C92500BD5378 /* GGTextBaseValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGTextBaseValidator.m; sourceTree = "<group>"; };
-		845043FD1E77CA0C00BD5378 /* GGTextIsEmptyValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGTextIsEmptyValidator.h; sourceTree = "<group>"; };
-		845043FE1E77CA0C00BD5378 /* GGTextIsEmptyValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGTextIsEmptyValidator.m; sourceTree = "<group>"; };
-		845044041E77CB3A00BD5378 /* GGTextLessThanValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGTextLessThanValidator.h; sourceTree = "<group>"; };
-		845044051E77CB3A00BD5378 /* GGTextLessThanValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGTextLessThanValidator.m; sourceTree = "<group>"; };
-		845044081E77CD2B00BD5378 /* GGTextMoreThanValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGTextMoreThanValidator.h; sourceTree = "<group>"; };
-		845044091E77CD2B00BD5378 /* GGTextMoreThanValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGTextMoreThanValidator.m; sourceTree = "<group>"; };
-		8450440E1E77CE7400BD5378 /* GGTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGTextField.h; sourceTree = "<group>"; };
-		8450440F1E77CE7400BD5378 /* GGTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGTextField.m; sourceTree = "<group>"; };
-		845044111E77D24400BD5378 /* GGTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGTextView.h; sourceTree = "<group>"; };
-		845044121E77D24400BD5378 /* GGTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGTextView.m; sourceTree = "<group>"; };
-		845044141E77D64300BD5378 /* GGTextValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGTextValidator.h; sourceTree = "<group>"; };
-		845044151E77D64300BD5378 /* GGTextValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGTextValidator.m; sourceTree = "<group>"; };
+		845044191E77DB5800BD5378 /* GGTextBaseValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGTextBaseValidator.h; sourceTree = "<group>"; };
+		8450441A1E77DB5800BD5378 /* GGTextBaseValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGTextBaseValidator.m; sourceTree = "<group>"; };
+		8450441C1E77DB5800BD5378 /* GGTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGTextField.h; sourceTree = "<group>"; };
+		8450441D1E77DB5800BD5378 /* GGTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGTextField.m; sourceTree = "<group>"; };
+		8450441F1E77DB5800BD5378 /* GGTextIsEmptyValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGTextIsEmptyValidator.h; sourceTree = "<group>"; };
+		845044201E77DB5800BD5378 /* GGTextIsEmptyValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGTextIsEmptyValidator.m; sourceTree = "<group>"; };
+		845044221E77DB5800BD5378 /* GGTextLessThanValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGTextLessThanValidator.h; sourceTree = "<group>"; };
+		845044231E77DB5800BD5378 /* GGTextLessThanValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGTextLessThanValidator.m; sourceTree = "<group>"; };
+		845044251E77DB5800BD5378 /* GGTextMoreThanValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGTextMoreThanValidator.h; sourceTree = "<group>"; };
+		845044261E77DB5800BD5378 /* GGTextMoreThanValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGTextMoreThanValidator.m; sourceTree = "<group>"; };
+		845044271E77DB5800BD5378 /* GGTextValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGTextValidator.h; sourceTree = "<group>"; };
+		845044281E77DB5800BD5378 /* GGTextValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGTextValidator.m; sourceTree = "<group>"; };
+		8450442A1E77DB5800BD5378 /* GGTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGTextView.h; sourceTree = "<group>"; };
+		8450442B1E77DB5800BD5378 /* GGTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +63,7 @@
 		845043CE1E77C5F100BD5378 = {
 			isa = PBXGroup;
 			children = (
-				845043F11E77C62A00BD5378 /* GGTextValidator */,
+				845044171E77DB5800BD5378 /* GGTextValidator */,
 				845043D91E77C5F100BD5378 /* GGTextValidatorDemo */,
 				845043D81E77C5F100BD5378 /* Products */,
 			);
@@ -101,71 +101,72 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		845043F11E77C62A00BD5378 /* GGTextValidator */ = {
+		845044171E77DB5800BD5378 /* GGTextValidator */ = {
 			isa = PBXGroup;
 			children = (
-				8450440C1E77CE5500BD5378 /* GGTextField */,
-				8450440D1E77CE5500BD5378 /* GGTextView */,
-				845044071E77CD1A00BD5378 /* GGTextMoreThanValidator */,
-				845044001E77CAFC00BD5378 /* GGTextLessThanValidator */,
-				845043F91E77C94A00BD5378 /* GGTextIsEmptyValidator */,
-				845043F51E77C92500BD5378 /* GGTextBaseValidator */,
-				845044141E77D64300BD5378 /* GGTextValidator.h */,
-				845044151E77D64300BD5378 /* GGTextValidator.m */,
+				845044181E77DB5800BD5378 /* GGTextBaseValidator */,
+				8450441B1E77DB5800BD5378 /* GGTextField */,
+				8450441E1E77DB5800BD5378 /* GGTextIsEmptyValidator */,
+				845044211E77DB5800BD5378 /* GGTextLessThanValidator */,
+				845044241E77DB5800BD5378 /* GGTextMoreThanValidator */,
+				845044271E77DB5800BD5378 /* GGTextValidator.h */,
+				845044281E77DB5800BD5378 /* GGTextValidator.m */,
+				845044291E77DB5800BD5378 /* GGTextView */,
 			);
-			path = GGTextValidator;
+			name = GGTextValidator;
+			path = ../GGTextValidator;
 			sourceTree = "<group>";
 		};
-		845043F51E77C92500BD5378 /* GGTextBaseValidator */ = {
+		845044181E77DB5800BD5378 /* GGTextBaseValidator */ = {
 			isa = PBXGroup;
 			children = (
-				845043F61E77C92500BD5378 /* GGTextBaseValidator.h */,
-				845043F71E77C92500BD5378 /* GGTextBaseValidator.m */,
+				845044191E77DB5800BD5378 /* GGTextBaseValidator.h */,
+				8450441A1E77DB5800BD5378 /* GGTextBaseValidator.m */,
 			);
 			path = GGTextBaseValidator;
 			sourceTree = "<group>";
 		};
-		845043F91E77C94A00BD5378 /* GGTextIsEmptyValidator */ = {
+		8450441B1E77DB5800BD5378 /* GGTextField */ = {
 			isa = PBXGroup;
 			children = (
-				845043FD1E77CA0C00BD5378 /* GGTextIsEmptyValidator.h */,
-				845043FE1E77CA0C00BD5378 /* GGTextIsEmptyValidator.m */,
-			);
-			path = GGTextIsEmptyValidator;
-			sourceTree = "<group>";
-		};
-		845044001E77CAFC00BD5378 /* GGTextLessThanValidator */ = {
-			isa = PBXGroup;
-			children = (
-				845044041E77CB3A00BD5378 /* GGTextLessThanValidator.h */,
-				845044051E77CB3A00BD5378 /* GGTextLessThanValidator.m */,
-			);
-			path = GGTextLessThanValidator;
-			sourceTree = "<group>";
-		};
-		845044071E77CD1A00BD5378 /* GGTextMoreThanValidator */ = {
-			isa = PBXGroup;
-			children = (
-				845044081E77CD2B00BD5378 /* GGTextMoreThanValidator.h */,
-				845044091E77CD2B00BD5378 /* GGTextMoreThanValidator.m */,
-			);
-			path = GGTextMoreThanValidator;
-			sourceTree = "<group>";
-		};
-		8450440C1E77CE5500BD5378 /* GGTextField */ = {
-			isa = PBXGroup;
-			children = (
-				8450440E1E77CE7400BD5378 /* GGTextField.h */,
-				8450440F1E77CE7400BD5378 /* GGTextField.m */,
+				8450441C1E77DB5800BD5378 /* GGTextField.h */,
+				8450441D1E77DB5800BD5378 /* GGTextField.m */,
 			);
 			path = GGTextField;
 			sourceTree = "<group>";
 		};
-		8450440D1E77CE5500BD5378 /* GGTextView */ = {
+		8450441E1E77DB5800BD5378 /* GGTextIsEmptyValidator */ = {
 			isa = PBXGroup;
 			children = (
-				845044111E77D24400BD5378 /* GGTextView.h */,
-				845044121E77D24400BD5378 /* GGTextView.m */,
+				8450441F1E77DB5800BD5378 /* GGTextIsEmptyValidator.h */,
+				845044201E77DB5800BD5378 /* GGTextIsEmptyValidator.m */,
+			);
+			path = GGTextIsEmptyValidator;
+			sourceTree = "<group>";
+		};
+		845044211E77DB5800BD5378 /* GGTextLessThanValidator */ = {
+			isa = PBXGroup;
+			children = (
+				845044221E77DB5800BD5378 /* GGTextLessThanValidator.h */,
+				845044231E77DB5800BD5378 /* GGTextLessThanValidator.m */,
+			);
+			path = GGTextLessThanValidator;
+			sourceTree = "<group>";
+		};
+		845044241E77DB5800BD5378 /* GGTextMoreThanValidator */ = {
+			isa = PBXGroup;
+			children = (
+				845044251E77DB5800BD5378 /* GGTextMoreThanValidator.h */,
+				845044261E77DB5800BD5378 /* GGTextMoreThanValidator.m */,
+			);
+			path = GGTextMoreThanValidator;
+			sourceTree = "<group>";
+		};
+		845044291E77DB5800BD5378 /* GGTextView */ = {
+			isa = PBXGroup;
+			children = (
+				8450442A1E77DB5800BD5378 /* GGTextView.h */,
+				8450442B1E77DB5800BD5378 /* GGTextView.m */,
 			);
 			path = GGTextView;
 			sourceTree = "<group>";
@@ -243,16 +244,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				845043F81E77C92500BD5378 /* GGTextBaseValidator.m in Sources */,
-				845044131E77D24400BD5378 /* GGTextView.m in Sources */,
-				845043FF1E77CA0C00BD5378 /* GGTextIsEmptyValidator.m in Sources */,
+				8450442F1E77DB5800BD5378 /* GGTextLessThanValidator.m in Sources */,
+				8450442C1E77DB5800BD5378 /* GGTextBaseValidator.m in Sources */,
+				8450442E1E77DB5800BD5378 /* GGTextIsEmptyValidator.m in Sources */,
+				845044301E77DB5800BD5378 /* GGTextMoreThanValidator.m in Sources */,
 				845043E21E77C5F100BD5378 /* ViewController.m in Sources */,
-				8450440A1E77CD2B00BD5378 /* GGTextMoreThanValidator.m in Sources */,
-				845044061E77CB3A00BD5378 /* GGTextLessThanValidator.m in Sources */,
 				845043DF1E77C5F100BD5378 /* AppDelegate.m in Sources */,
+				845044311E77DB5800BD5378 /* GGTextValidator.m in Sources */,
+				845044321E77DB5800BD5378 /* GGTextView.m in Sources */,
 				845043DC1E77C5F100BD5378 /* main.m in Sources */,
-				845044101E77CE7400BD5378 /* GGTextField.m in Sources */,
-				845044161E77D64300BD5378 /* GGTextValidator.m in Sources */,
+				8450442D1E77DB5800BD5378 /* GGTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
