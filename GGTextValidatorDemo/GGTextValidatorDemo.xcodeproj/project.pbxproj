@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		845043DC1E77C5F100BD5378 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 845043DB1E77C5F100BD5378 /* main.m */; };
+		845043DF1E77C5F100BD5378 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 845043DE1E77C5F100BD5378 /* AppDelegate.m */; };
+		845043E21E77C5F100BD5378 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845043E11E77C5F100BD5378 /* ViewController.m */; };
+		845043E51E77C5F100BD5378 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845043E31E77C5F100BD5378 /* Main.storyboard */; };
+		845043E71E77C5F100BD5378 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845043E61E77C5F100BD5378 /* Assets.xcassets */; };
+		845043EA1E77C5F100BD5378 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845043E81E77C5F100BD5378 /* LaunchScreen.storyboard */; };
+		845043F81E77C92500BD5378 /* GGTextBaseValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 845043F71E77C92500BD5378 /* GGTextBaseValidator.m */; };
+		845043FF1E77CA0C00BD5378 /* GGTextIsEmptyValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 845043FE1E77CA0C00BD5378 /* GGTextIsEmptyValidator.m */; };
+		845044061E77CB3A00BD5378 /* GGTextLessThanValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 845044051E77CB3A00BD5378 /* GGTextLessThanValidator.m */; };
+		8450440A1E77CD2B00BD5378 /* GGTextMoreThanValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 845044091E77CD2B00BD5378 /* GGTextMoreThanValidator.m */; };
+		845044101E77CE7400BD5378 /* GGTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 8450440F1E77CE7400BD5378 /* GGTextField.m */; };
+		845044131E77D24400BD5378 /* GGTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 845044121E77D24400BD5378 /* GGTextView.m */; };
+		845044161E77D64300BD5378 /* GGTextValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 845044151E77D64300BD5378 /* GGTextValidator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		845043D71E77C5F100BD5378 /* GGTextValidatorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GGTextValidatorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		845043DB1E77C5F100BD5378 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		845043DD1E77C5F100BD5378 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		845043DE1E77C5F100BD5378 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		845043E01E77C5F100BD5378 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		845043E11E77C5F100BD5378 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		845043E41E77C5F100BD5378 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		845043E61E77C5F100BD5378 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		845043E91E77C5F100BD5378 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		845043EB1E77C5F100BD5378 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		845043F61E77C92500BD5378 /* GGTextBaseValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGTextBaseValidator.h; sourceTree = "<group>"; };
+		845043F71E77C92500BD5378 /* GGTextBaseValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGTextBaseValidator.m; sourceTree = "<group>"; };
+		845043FD1E77CA0C00BD5378 /* GGTextIsEmptyValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGTextIsEmptyValidator.h; sourceTree = "<group>"; };
+		845043FE1E77CA0C00BD5378 /* GGTextIsEmptyValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGTextIsEmptyValidator.m; sourceTree = "<group>"; };
+		845044041E77CB3A00BD5378 /* GGTextLessThanValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGTextLessThanValidator.h; sourceTree = "<group>"; };
+		845044051E77CB3A00BD5378 /* GGTextLessThanValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGTextLessThanValidator.m; sourceTree = "<group>"; };
+		845044081E77CD2B00BD5378 /* GGTextMoreThanValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGTextMoreThanValidator.h; sourceTree = "<group>"; };
+		845044091E77CD2B00BD5378 /* GGTextMoreThanValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGTextMoreThanValidator.m; sourceTree = "<group>"; };
+		8450440E1E77CE7400BD5378 /* GGTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGTextField.h; sourceTree = "<group>"; };
+		8450440F1E77CE7400BD5378 /* GGTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGTextField.m; sourceTree = "<group>"; };
+		845044111E77D24400BD5378 /* GGTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGTextView.h; sourceTree = "<group>"; };
+		845044121E77D24400BD5378 /* GGTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGTextView.m; sourceTree = "<group>"; };
+		845044141E77D64300BD5378 /* GGTextValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGTextValidator.h; sourceTree = "<group>"; };
+		845044151E77D64300BD5378 /* GGTextValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGTextValidator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		845043D41E77C5F100BD5378 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		845043CE1E77C5F100BD5378 = {
+			isa = PBXGroup;
+			children = (
+				845043F11E77C62A00BD5378 /* GGTextValidator */,
+				845043D91E77C5F100BD5378 /* GGTextValidatorDemo */,
+				845043D81E77C5F100BD5378 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		845043D81E77C5F100BD5378 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				845043D71E77C5F100BD5378 /* GGTextValidatorDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		845043D91E77C5F100BD5378 /* GGTextValidatorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				845043DD1E77C5F100BD5378 /* AppDelegate.h */,
+				845043DE1E77C5F100BD5378 /* AppDelegate.m */,
+				845043E01E77C5F100BD5378 /* ViewController.h */,
+				845043E11E77C5F100BD5378 /* ViewController.m */,
+				845043E31E77C5F100BD5378 /* Main.storyboard */,
+				845043E61E77C5F100BD5378 /* Assets.xcassets */,
+				845043E81E77C5F100BD5378 /* LaunchScreen.storyboard */,
+				845043EB1E77C5F100BD5378 /* Info.plist */,
+				845043DA1E77C5F100BD5378 /* Supporting Files */,
+			);
+			path = GGTextValidatorDemo;
+			sourceTree = "<group>";
+		};
+		845043DA1E77C5F100BD5378 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				845043DB1E77C5F100BD5378 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		845043F11E77C62A00BD5378 /* GGTextValidator */ = {
+			isa = PBXGroup;
+			children = (
+				8450440C1E77CE5500BD5378 /* GGTextField */,
+				8450440D1E77CE5500BD5378 /* GGTextView */,
+				845044071E77CD1A00BD5378 /* GGTextMoreThanValidator */,
+				845044001E77CAFC00BD5378 /* GGTextLessThanValidator */,
+				845043F91E77C94A00BD5378 /* GGTextIsEmptyValidator */,
+				845043F51E77C92500BD5378 /* GGTextBaseValidator */,
+				845044141E77D64300BD5378 /* GGTextValidator.h */,
+				845044151E77D64300BD5378 /* GGTextValidator.m */,
+			);
+			path = GGTextValidator;
+			sourceTree = "<group>";
+		};
+		845043F51E77C92500BD5378 /* GGTextBaseValidator */ = {
+			isa = PBXGroup;
+			children = (
+				845043F61E77C92500BD5378 /* GGTextBaseValidator.h */,
+				845043F71E77C92500BD5378 /* GGTextBaseValidator.m */,
+			);
+			path = GGTextBaseValidator;
+			sourceTree = "<group>";
+		};
+		845043F91E77C94A00BD5378 /* GGTextIsEmptyValidator */ = {
+			isa = PBXGroup;
+			children = (
+				845043FD1E77CA0C00BD5378 /* GGTextIsEmptyValidator.h */,
+				845043FE1E77CA0C00BD5378 /* GGTextIsEmptyValidator.m */,
+			);
+			path = GGTextIsEmptyValidator;
+			sourceTree = "<group>";
+		};
+		845044001E77CAFC00BD5378 /* GGTextLessThanValidator */ = {
+			isa = PBXGroup;
+			children = (
+				845044041E77CB3A00BD5378 /* GGTextLessThanValidator.h */,
+				845044051E77CB3A00BD5378 /* GGTextLessThanValidator.m */,
+			);
+			path = GGTextLessThanValidator;
+			sourceTree = "<group>";
+		};
+		845044071E77CD1A00BD5378 /* GGTextMoreThanValidator */ = {
+			isa = PBXGroup;
+			children = (
+				845044081E77CD2B00BD5378 /* GGTextMoreThanValidator.h */,
+				845044091E77CD2B00BD5378 /* GGTextMoreThanValidator.m */,
+			);
+			path = GGTextMoreThanValidator;
+			sourceTree = "<group>";
+		};
+		8450440C1E77CE5500BD5378 /* GGTextField */ = {
+			isa = PBXGroup;
+			children = (
+				8450440E1E77CE7400BD5378 /* GGTextField.h */,
+				8450440F1E77CE7400BD5378 /* GGTextField.m */,
+			);
+			path = GGTextField;
+			sourceTree = "<group>";
+		};
+		8450440D1E77CE5500BD5378 /* GGTextView */ = {
+			isa = PBXGroup;
+			children = (
+				845044111E77D24400BD5378 /* GGTextView.h */,
+				845044121E77D24400BD5378 /* GGTextView.m */,
+			);
+			path = GGTextView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		845043D61E77C5F100BD5378 /* GGTextValidatorDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 845043EE1E77C5F100BD5378 /* Build configuration list for PBXNativeTarget "GGTextValidatorDemo" */;
+			buildPhases = (
+				845043D31E77C5F100BD5378 /* Sources */,
+				845043D41E77C5F100BD5378 /* Frameworks */,
+				845043D51E77C5F100BD5378 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GGTextValidatorDemo;
+			productName = GGTextValidatorDemo;
+			productReference = 845043D71E77C5F100BD5378 /* GGTextValidatorDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		845043CF1E77C5F100BD5378 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GG;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = GaoXinYuan;
+				TargetAttributes = {
+					845043D61E77C5F100BD5378 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ML78DUX4A6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 845043D21E77C5F100BD5378 /* Build configuration list for PBXProject "GGTextValidatorDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 845043CE1E77C5F100BD5378;
+			productRefGroup = 845043D81E77C5F100BD5378 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				845043D61E77C5F100BD5378 /* GGTextValidatorDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		845043D51E77C5F100BD5378 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845043EA1E77C5F100BD5378 /* LaunchScreen.storyboard in Resources */,
+				845043E71E77C5F100BD5378 /* Assets.xcassets in Resources */,
+				845043E51E77C5F100BD5378 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		845043D31E77C5F100BD5378 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845043F81E77C92500BD5378 /* GGTextBaseValidator.m in Sources */,
+				845044131E77D24400BD5378 /* GGTextView.m in Sources */,
+				845043FF1E77CA0C00BD5378 /* GGTextIsEmptyValidator.m in Sources */,
+				845043E21E77C5F100BD5378 /* ViewController.m in Sources */,
+				8450440A1E77CD2B00BD5378 /* GGTextMoreThanValidator.m in Sources */,
+				845044061E77CB3A00BD5378 /* GGTextLessThanValidator.m in Sources */,
+				845043DF1E77C5F100BD5378 /* AppDelegate.m in Sources */,
+				845043DC1E77C5F100BD5378 /* main.m in Sources */,
+				845044101E77CE7400BD5378 /* GGTextField.m in Sources */,
+				845044161E77D64300BD5378 /* GGTextValidator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		845043E31E77C5F100BD5378 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				845043E41E77C5F100BD5378 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		845043E81E77C5F100BD5378 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				845043E91E77C5F100BD5378 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		845043EC1E77C5F100BD5378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		845043ED1E77C5F100BD5378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		845043EF1E77C5F100BD5378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ML78DUX4A6;
+				INFOPLIST_FILE = GGTextValidatorDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GaoXinYuan.GGTextValidatorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		845043F01E77C5F100BD5378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ML78DUX4A6;
+				INFOPLIST_FILE = GGTextValidatorDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GaoXinYuan.GGTextValidatorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		845043D21E77C5F100BD5378 /* Build configuration list for PBXProject "GGTextValidatorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845043EC1E77C5F100BD5378 /* Debug */,
+				845043ED1E77C5F100BD5378 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		845043EE1E77C5F100BD5378 /* Build configuration list for PBXNativeTarget "GGTextValidatorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845043EF1E77C5F100BD5378 /* Debug */,
+				845043F01E77C5F100BD5378 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 845043CF1E77C5F100BD5378 /* Project object */;
+}
