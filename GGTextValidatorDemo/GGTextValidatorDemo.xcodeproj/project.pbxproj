@@ -20,6 +20,9 @@
 		845044301E77DB5800BD5378 /* GGTextMoreThanValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 845044261E77DB5800BD5378 /* GGTextMoreThanValidator.m */; };
 		845044311E77DB5800BD5378 /* GGTextValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 845044281E77DB5800BD5378 /* GGTextValidator.m */; };
 		845044321E77DB5800BD5378 /* GGTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8450442B1E77DB5800BD5378 /* GGTextView.m */; };
+		84F473951E77E0AF003224C4 /* GGTextIsNumberValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F473941E77E0AF003224C4 /* GGTextIsNumberValidator.m */; };
+		84F473991E77E1AB003224C4 /* GGTextIsPhoneNumberValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F473981E77E1AB003224C4 /* GGTextIsPhoneNumberValidator.m */; };
+		84F4739D1E77E2F5003224C4 /* GGTextIsEMailValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F4739C1E77E2F5003224C4 /* GGTextIsEMailValidator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +50,12 @@
 		845044281E77DB5800BD5378 /* GGTextValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGTextValidator.m; sourceTree = "<group>"; };
 		8450442A1E77DB5800BD5378 /* GGTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGTextView.h; sourceTree = "<group>"; };
 		8450442B1E77DB5800BD5378 /* GGTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGTextView.m; sourceTree = "<group>"; };
+		84F473931E77E0AF003224C4 /* GGTextIsNumberValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGTextIsNumberValidator.h; sourceTree = "<group>"; };
+		84F473941E77E0AF003224C4 /* GGTextIsNumberValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGTextIsNumberValidator.m; sourceTree = "<group>"; };
+		84F473971E77E1AB003224C4 /* GGTextIsPhoneNumberValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGTextIsPhoneNumberValidator.h; sourceTree = "<group>"; };
+		84F473981E77E1AB003224C4 /* GGTextIsPhoneNumberValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGTextIsPhoneNumberValidator.m; sourceTree = "<group>"; };
+		84F4739B1E77E2F5003224C4 /* GGTextIsEMailValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGTextIsEMailValidator.h; sourceTree = "<group>"; };
+		84F4739C1E77E2F5003224C4 /* GGTextIsEMailValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGTextIsEMailValidator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +113,9 @@
 		845044171E77DB5800BD5378 /* GGTextValidator */ = {
 			isa = PBXGroup;
 			children = (
+				84F4739A1E77E2E4003224C4 /* GGTextIsEMailValidator */,
+				84F473961E77E198003224C4 /* GGTextIsPhoneNumberValidator */,
+				84F473921E77E09D003224C4 /* GGTextIsNumberValidator */,
 				845044181E77DB5800BD5378 /* GGTextBaseValidator */,
 				8450441B1E77DB5800BD5378 /* GGTextField */,
 				8450441E1E77DB5800BD5378 /* GGTextIsEmptyValidator */,
@@ -169,6 +181,33 @@
 				8450442B1E77DB5800BD5378 /* GGTextView.m */,
 			);
 			path = GGTextView;
+			sourceTree = "<group>";
+		};
+		84F473921E77E09D003224C4 /* GGTextIsNumberValidator */ = {
+			isa = PBXGroup;
+			children = (
+				84F473931E77E0AF003224C4 /* GGTextIsNumberValidator.h */,
+				84F473941E77E0AF003224C4 /* GGTextIsNumberValidator.m */,
+			);
+			path = GGTextIsNumberValidator;
+			sourceTree = "<group>";
+		};
+		84F473961E77E198003224C4 /* GGTextIsPhoneNumberValidator */ = {
+			isa = PBXGroup;
+			children = (
+				84F473971E77E1AB003224C4 /* GGTextIsPhoneNumberValidator.h */,
+				84F473981E77E1AB003224C4 /* GGTextIsPhoneNumberValidator.m */,
+			);
+			path = GGTextIsPhoneNumberValidator;
+			sourceTree = "<group>";
+		};
+		84F4739A1E77E2E4003224C4 /* GGTextIsEMailValidator */ = {
+			isa = PBXGroup;
+			children = (
+				84F4739B1E77E2F5003224C4 /* GGTextIsEMailValidator.h */,
+				84F4739C1E77E2F5003224C4 /* GGTextIsEMailValidator.m */,
+			);
+			path = GGTextIsEMailValidator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,8 +283,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84F473951E77E0AF003224C4 /* GGTextIsNumberValidator.m in Sources */,
+				84F473991E77E1AB003224C4 /* GGTextIsPhoneNumberValidator.m in Sources */,
 				8450442F1E77DB5800BD5378 /* GGTextLessThanValidator.m in Sources */,
 				8450442C1E77DB5800BD5378 /* GGTextBaseValidator.m in Sources */,
+				84F4739D1E77E2F5003224C4 /* GGTextIsEMailValidator.m in Sources */,
 				8450442E1E77DB5800BD5378 /* GGTextIsEmptyValidator.m in Sources */,
 				845044301E77DB5800BD5378 /* GGTextMoreThanValidator.m in Sources */,
 				845043E21E77C5F100BD5378 /* ViewController.m in Sources */,
@@ -412,6 +454,7 @@
 				845043F01E77C5F100BD5378 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

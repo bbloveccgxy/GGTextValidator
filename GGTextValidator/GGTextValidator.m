@@ -24,4 +24,19 @@
     GGTextMoreThanValidator *validator = [GGTextMoreThanValidator moreThan:length];
     return validator;
 }
+
++ (GGTextIsEMailValidator*)isEMail{
+    GGTextIsEMailValidator *validator = [[GGTextIsEMailValidator alloc] init];
+    return validator;
+}
+
++ (GGTextIsNumberValidator*)isNumber{
+    GGTextIsNumberValidator *validator = [[GGTextIsNumberValidator alloc] init];
+    return validator;
+}
+
++ (GGTextIsPhoneNumberValidator*)isPhoneNumber{
+    GGTextIsPhoneNumberValidator *validator = [[GGTextIsPhoneNumberValidator alloc] init];
+    return validator;
+}
 @end
