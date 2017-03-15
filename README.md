@@ -1,15 +1,13 @@
 # GGTextValidator
-##Brief Introduction
+## Breif Introduction
 An input validator for UITextField and UITextView including some useful validation as if text is empty,text.length is less than...<br>
 The goal of this validator is to reduce if()...else()... while there are many TextField or TextView in a single ViewController.<br>
-##Usage
+## Usage
 Just include "GGTextValidator.h".<br>
 This validator should be used with GGTextField or GGTextView.<br>
-###Example code
+### Example code
 ```objective-c
 GGTextField *field = [[GGTextField alloc] init];
-```
-```objective-c
 field.validateDescription = @"用户名";
 //field.validateDescription = @"Username";
 field addValidator:[GGTextValidator isEmpty]];
@@ -26,5 +24,5 @@ In the delegate method:<br>
 }   
 ```
 ## Example is in the demo.
-#Look forward to your suggestions!!!
+# Look forward to your suggestions!!!
 
